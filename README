@@ -24,3 +24,8 @@ in which SZ is the font size, HDPI/VDPI is the horizontal/vertical
 DPI, HADJ/VADJ is the amount of horizontal/vertical position
 adjustment, BOLD specifies if fonts should be emboldened by repeating
 pixels, and HINT specifies if autohinting should be used.
+
+Usage :
+  make && ./mkfn your_fav_font.ttf:font_size > output.tf 
+
+output.tf is to be used with fbpad
